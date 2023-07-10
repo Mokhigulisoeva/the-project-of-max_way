@@ -1,0 +1,143 @@
+.drinks {
+  padding-bottom: 105px;
+  .container {
+    .drinks_title {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 63px;
+      color: #222124;
+      margin-bottom: 30px;
+    }
+
+    .row {
+      .wrapper {
+        padding: 30px 30px 20px;
+        display: flex;
+        align-items: center;
+        column-gap: 34px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        margin-bottom: 20px;
+
+        .drink_img {
+          img {
+            width: 183px;
+            background-color: #fff;
+          }
+        }
+
+        .drink_content {
+          .drink_title {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-bottom: 10px;
+          }
+
+          .drink_description {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-bottom: 24px;
+          }
+
+          .cost_wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .drink_cost {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 29px;
+              color: #222124;
+            }
+
+            .adding_wrapper {
+              width: 50px;
+              height: 50px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: #f1b301;
+              border-radius: 50%;
+
+              .adding {
+                text-decoration: none;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                  width: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .drinks {
+    padding-bottom: 50px;
+    .container {
+      .drinks_title {
+        text-align: center;
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 22px;
+      }
+
+      .row {
+        .wrapper {
+          column-gap: 21px;
+          .drink_img {
+            img {
+              width: 130px;
+              
+            }
+          }
+          .drink_content {
+            .drink_title{
+                font-size: 18px;
+              line-height: 22px;
+              margin-bottom: 7px;
+            }
+            .drink_description {
+              margin-bottom: 9px;
+            }
+            .cost_wrapper {
+              .drink_cost {
+                font-size: 18px;
+                line-height: 22px;
+              }
+              .adding_wrapper {
+                width: 40px;
+                height: 40px;
+                .adding {
+                  img {
+                    width: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

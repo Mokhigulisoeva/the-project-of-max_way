@@ -1,0 +1,174 @@
+.pitsa {
+  padding-bottom: 105px;
+
+  .container {
+    .pitsa_title {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 63px;
+      color: #222124;
+      margin-bottom: 30px;
+    }
+
+    .row {
+      .wrapper {
+        padding: 30px 30px 20px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        column-gap: 41px;
+        margin-bottom: 20px;
+
+        .pitsa_img {
+          position: relative;
+
+          img {
+            width: 190px;
+          }
+
+          .img_wrapper {
+            width: 50px;
+            background: rgba(255, 255, 255, 0.249235);
+            box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+            backdrop-filter: blur(4.07742px);
+            border-radius: 25px;
+
+            .shadow_light {
+              width: 24px;
+              padding: 20px;
+
+              position: absolute;
+              top: 0;
+              left: 15px;
+            }
+          }
+        }
+
+        .pitsa_content {
+          .pitsa_title {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-bottom: 10px;
+            margin-right: 17px;
+          }
+
+          span {
+            img {
+              width: 24px;
+            }
+          }
+
+          .pitsa_description {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-bottom: 13px;
+          }
+
+          .cost_wrapper {
+            display: flex;
+            align-items: center;
+
+            justify-content: space-between;
+
+            .pitsa_cost {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 29px;
+              color: #222124;
+            }
+
+            .adding_wrapper {
+              width: 50px;
+              height: 50px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background: #f1b301;
+              border-radius: 50%;
+
+              .adding {
+                text-decoration: none;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                  width: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .pitsa {
+    padding-bottom: 40px;
+    .container {
+      .pitsa_title {
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        margin-bottom: 21px;
+      }
+
+      .row {
+        .wrapper {
+          column-gap: 20px;
+
+          .pitsa_img {
+            img {
+              width: 125px;
+            }
+          }
+          .pitsa_content {
+            .pitsa_title {
+              font-size: 18px;
+              line-height: 22px;
+              margin-bottom: 7px;
+              text-align: start;
+            }
+            .pitsa_description {
+              margin-bottom: 9px;
+            }
+            .cost_wrapper {
+              column-gap: 10px;
+              .pitsa_cost {
+                font-size: 18px;
+                line-height: 22px;
+              }
+              .adding_wrapper {
+                width: 40px;
+                height: 40px;
+                .adding {
+                  img {
+                    width: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

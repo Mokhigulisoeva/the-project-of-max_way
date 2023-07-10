@@ -1,0 +1,105 @@
+.lists {
+    padding-bottom: 105px;
+
+    .container {
+
+
+        .lists_wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .btn_wrapper {
+                width: 85%;
+                display: flex;
+                column-gap: 15px;
+                align-items: center;
+
+                button {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #222124;
+                    transition: 0.3s;
+                }
+
+                button:hover {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+
+                    color: #FFFFFF;
+                    background-color: #F1B301;
+                    border-radius: 27px;
+                }
+            }
+
+            .filtr_wrapper {
+                width: 13%;
+
+                .filtr {
+                    width: 100%;
+                    padding: 10px;
+                    display: flex;
+                    column-gap: 19px;
+                    align-items: center;
+                    background-color: #F5F5F5;
+                    border-radius: 27px;
+                    margin: 0 auto;
+                    display: block;
+                    color: #222124;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+                }
+
+                span {
+                    
+                    svg {
+                       width: 20px;
+
+                    }
+
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .lists {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .container {
+            .lists_wrapper {
+
+                display: block;
+                overflow: auto;
+
+                .btn_wrapper {
+                    overflow: auto;
+                    margin-bottom: 14px;
+                }
+
+                .filtr_wrapper {
+                    width: 100%;
+
+                    .filtr {
+                        margin: 0 AUTO;
+                        justify-content: center;
+                        text-align: center;
+                        padding: 12px 130px;
+                    }
+                }
+            }
+        }
+    }
+}

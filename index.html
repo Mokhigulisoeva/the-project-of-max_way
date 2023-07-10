@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <img src="./Images/Group Copy 2.svg" alt="" class="navbar_logo" />
+        <div class="d-flex align-items-center gap-5">
+          <div class="navbar_links">
+            <a href="" class="navbar_link">Menyu</a>
+            <a href="" class="navbar_link">Bolalar uchun</a>
+            <a href="" class="navbar_link">Filiallar</a>
+          </div>
+
+          <div class="navbar_contact">
+            <img src="./Images/Group.png" alt="" class="number_logo" />
+            <a href="" class="number">
+              <span>(+99871)</span> <br />
+              200-54-00</a>
+          </div>
+          <div class="devider_line">
+          </div>
+          <div class="navbar_korzinka">
+            <div class="position-relative me-3">
+              <img src="./Images/Group (1).png" alt="" class="lock" />
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                3
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </div>
+            <a class="korzinka" href="">Korzina <br />
+              <span>125,400 UZS</span>
+            </a>
+          </div>
+        </div>
+        <div class="mobile_logo">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="./Images/Frame.png" alt="" />
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Max Way menu</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="links">
+                    <a href="" class="link">Menyu</a>
+                    <a href="" class="link">Bolalar uchun</a>
+                    <a href="" class="link">Filiallar</a>
+                  </div>
+                  <div class="contact">
+                    <img src="./Images/Group.png" alt="" class="number_logo" />
+                    <a href="" class="number">
+                      <span>(+99871)</span> <br />
+                      200-54-00</a>
+                  </div>
+                  <div class="modal_korzinka">
+                    <div class="position-relative me-3">
+                      <img src="./Images/Group (1).png" alt="" class="lock" />
+                      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        3
+                        <span class="visually-hidden">unread messages</span>
+                      </span>
+                    </div>
+                    <a class="korzinka" href="">Korzina <br />
+                      <span>125,400 UZS</span>
+                    </a>
+                  </div>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="row">
+          <div class="col-md-5 col-12 order-2 order-md-1">
+            <h1 class="hero_title">Siz izlagan mazzali ta’mlar</h1>
+            <p class="hero_description">When an unknown printer took a galley of type scrambled it to make a type
+              specimen</p>
+          </div>
+          <div class="col-md-7 col-12 order-md-2 order-1">
+            <img src="./Images/Bitmap.png" alt="" class="hero_img" />
+          </div>
+        </div>
+        <div class="hero_statistics">
+          <div class="statistics_wrapper">
+            <div class="new">
+              <button class="btn">
+                <span><img src="./Images/🔥 copy.svg" alt="" />Yangi</span>
+              </button>
+              <h3 class="new_title">
+                Pit
+                <span class="span">-sa</span>
+              </h3>
+            </div>
+            <div class="bestseller">
+              <button class="btn">
+                <span><img src="./Images/🚀 copy.svg" alt="" />Ko'p sotilgan</span>
+              </button>
+              <h3 class="bestseller_title">
+                Kom <span class="span">-bo</span>
+
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </header>
+  <section class="hr">
+    <div class="container">
+      <div class="devider"></div>
+    </div>
+  </section>
+  <section class="lists">
+    <div class="container">
+      <div class="lists_wrapper">
+        <div class="btn_wrapper">
+          <button class="btn">Barchasi</button>
+          <button class="btn">Pitsa</button>
+          <button class="btn">Burger</button>
+          <button class="btn">Kombo</button>
+          <button class="btn">Salat</button>
+          <button class="btn">Shirinliklar</button>
+          <button class="btn">Ichimliklar</button>
+        </div>
+        <div class="filtr_wrapper">
+          <button class="btn filtr"><span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M5.14163 3.33338C5.49446 2.33341 6.43957 1.66467 7.49996 1.66467C8.56035 1.66467 9.50546 2.33341 9.85829 3.33338H18.3333V5.00005H9.85829C9.50546 6.00002 8.56035 6.66876 7.49996 6.66876C6.43957 6.66876 5.49446 6.00002 5.14163 5.00005H1.66663V3.33338H5.14163ZM12.5 7.49801C11.4396 7.49801 10.4945 8.16675 10.1416 9.16672H1.66663V10.8334H10.1416C10.4945 11.8333 11.4396 12.5021 12.5 12.5021C13.5603 12.5021 14.5055 11.8333 14.8583 10.8334H18.3333V9.16672H14.8583C14.5055 8.16675 13.5603 7.49801 12.5 7.49801ZM7.49996 13.3313C6.43957 13.3313 5.49446 14.0001 5.14163 15H1.66663V16.6667H5.14163C5.49446 17.6667 6.43957 18.3354 7.49996 18.3354C8.56035 18.3354 9.50546 17.6667 9.85829 16.6667H18.3333V15H9.85829C9.50546 14.0001 8.56035 13.3313 7.49996 13.3313ZM8.33329 4.16671C8.33329 4.62695 7.9602 5.00005 7.49996 5.00005C7.03972 5.00005 6.66663 4.62695 6.66663 4.16671C6.66663 3.70648 7.03972 3.33338 7.49996 3.33338C7.9602 3.33338 8.33329 3.70648 8.33329 4.16671ZM12.5 10.8334C12.9602 10.8334 13.3333 10.4603 13.3333 10C13.3333 9.53981 12.9602 9.16672 12.5 9.16672C12.0397 9.16672 11.6666 9.53981 11.6666 10C11.6666 10.4603 12.0397 10.8334 12.5 10.8334ZM8.33329 15.8334C8.33329 16.2936 7.9602 16.6667 7.49996 16.6667C7.03972 16.6667 6.66663 16.2936 6.66663 15.8334C6.66663 15.3731 7.03972 15 7.49996 15C7.9602 15 8.33329 15.3731 8.33329 15.8334Z"
+                  fill="black" />
+              </svg>
+            </span>Filtr</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pitsa">
+    <div class="container">
+      <h3 class="pitsa_title">
+        Pitsa
+      </h3>
+      <div class="row  ">
+        <div class="col-md-6 col-12 ">
+          <div class="wrapper">
+
+            <div class="pitsa_img">
+              <img src="./Images/Bitmap (5).jpg" alt="">
+              <div class="img_wrapper">
+                <img class="shadow_light" src="./Images/🔥 copy.svg" alt="">
+              </div>
+
+            </div>
+            <div class="pitsa_content">
+              <h5 class="pitsa_title">
+                Gavaya <span><img src="./Images/🧀.png" alt=""></span>
+              </h5>
+              <p class="pitsa_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="pitsa_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 ">
+          <div class="wrapper">
+            <div class="pitsa_img"><img src="./Images/Bitmap (7).png" alt=""></div>
+            <div class="pitsa_content">
+              <h5 class="pitsa_title">
+                Mexica<span><img src="./Images/🌶️ copy.png" alt=""></span>
+              </h5>
+              <p class="pitsa_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="pitsa_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 ">
+          <div class="wrapper">
+            <div class="pitsa_img"><img src="./Images/Bitmap (6).png" alt=""></div>
+            <div class="pitsa_content">
+              <h5 class="pitsa_title">
+                Hot achchiko <span><img src="./Images/🍀.png" alt=""></span>
+              </h5>
+              <p class="pitsa_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="pitsa_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 ">
+          <div class="wrapper">
+            <div class="pitsa_img"><img src="./Images/Bitmap Copy 2.png" alt=""></div>
+            <div class="pitsa_content">
+              <h5 class="pitsa_title">
+                Mexica <span><img src="./Images/🌶️ copy.png" alt=""></span>
+              </h5>
+              <p class="pitsa_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="pitsa_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 ">
+          <div class="wrapper">
+            <div class="pitsa_img"><img src="./Images/Bitmap (6).png" alt=""></div>
+            <div class="pitsa_content">
+              <h5 class="pitsa_title">
+                Gavaya <span><img src="./Images/🧀.png" alt=""></span>
+              </h5>
+              <p class="pitsa_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="pitsa_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 ">
+          <div class="wrapper">
+            <div class="pitsa_img"><img src="./Images/Bitmap Copy 2.png" alt=""></div>
+            <div class="pitsa_content">
+              <h5 class="pitsa_title">
+                Gavaya <span><img src="./Images/🍀.png" alt=""></span>
+              </h5>
+              <p class="pitsa_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="pitsa_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 ">
+          <div class="wrapper">
+            <div class="pitsa_img"><img src="./Images/Bitmap (7).png" alt=""></div>
+            <div class="pitsa_content">
+              <h5 class="pitsa_title">
+                Gavaya <span><img src="./Images/🧀.png" alt=""></span>
+              </h5>
+              <p class="pitsa_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="pitsa_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="burger">
+    <div class="container">
+      <h3 class="burger_title">
+        Burger
+      </h3>
+      <div class="row">
+        <div class="col-md-6 col-12  ">
+          <div class="wrapper">
+            <div class="burger_img">
+              <img src="./Images/Bitmap (1).png" alt="">
+            </div>
+            <div class="burger_content">
+              <h5 class="burger_title">
+                Cheeseburger <span><img src="./Images/🧀.png" alt=""></span>
+              </h5>
+              <p class="burger_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="burger_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12  ">
+          <div class="wrapper">
+            <div class="burger_img">
+              <img src="./Images/Bitmap (1).png" alt="">
+            </div>
+            <div class="burger_content">
+              <h5 class="burger_title">
+                Chili burger <span><img src="./Images/🌶️ copy.png" alt=""></span>
+              </h5>
+              <p class="burger_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="burger_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12  ">
+          <div class="wrapper">
+            <div class="burger_img">
+              <img src="./Images/Bitmap (1).png" alt="">
+            </div>
+            <div class="burger_content">
+              <h5 class="burger_title">
+                Hamburger
+              </h5>
+              <p class="burger_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="burger_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12  ">
+          <div class="wrapper">
+            <div class="burger_img">
+              <img src="./Images/Bitmap (1).png" alt="">
+            </div>
+            <div class="burger_content">
+              <h5 class="burger_title">
+                Double Burger
+              </h5>
+              <p class="burger_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="burger_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="kombo">
+    <div class="container">
+      <h3 class="kombos_title">
+        Kombo
+      </h3>
+      <div class="row">
+        <div class="col-md-6 col-12  ">
+          <div class="wrapper">
+            <div class="kombo_img">
+              <img src="./Images/max kvadrat menu - печать 2@2x (1).png" alt="">
+            </div>
+            <div class="kombo_content">
+              <h5 class="kombo_title">
+                Kombo-1
+              </h5>
+              <p class="kombo_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="kombo_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12  ">
+          <div class="wrapper">
+            <div class="kombo_img">
+              <img src="./Images/Bitmap (2).png" alt="">
+            </div>
+            <div class="kombo_content">
+              <h5 class="kombo_title">
+                Kombo-2
+              </h5>
+              <p class="kombo_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="kombo_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12  ">
+          <div class="wrapper">
+            <div class="kombo_img">
+              <img src="./Images/max kvadrat menu - печать 2@2x (1).png" alt="">
+            </div>
+            <div class="kombo_content">
+              <h5 class="kombo_title">
+                Kombo-3
+              </h5>
+              <p class="kombo_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="kombo_cost">
+                  45,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="drinks">
+    <div class="container">
+      <h3 class="drinks_title">
+        Ichimliklar
+      </h3>
+      <div class="row">
+        <div class="col-md-6 col-12  ">
+          <div class="wrapper">
+            <div class="drink_img">
+              <img src="./Images/Bitmap (3).png" alt="">
+            </div>
+            <div class="drink_content">
+              <h5 class="drink_title">
+                Sprite 1L
+              </h5>
+              <p class="drink_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="drink_cost">
+                  6,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12  ">
+          <div class="wrapper">
+            <div class="drink_img">
+              <img src="./Images/Bitmap (4).png" alt="">
+            </div>
+            <div class="drink_content">
+              <h5 class="drink_title">
+                Cola 1.5L
+              </h5>
+              <p class="drink_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="drink_cost">
+                  9,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12  ">
+          <div class="wrapper">
+            <div class="drink_img">
+              <img src="./Images/Bitmap (4).png" alt="">
+            </div>
+            <div class="drink_content">
+              <h5 class="drink_title">
+                Fanta 1L
+              </h5>
+              <p class="drink_description">
+                Горячая закуска с митболами
+                из говядины, томатами,
+                моцареллой и соусом чипотле
+
+              </p>
+              <div class="cost_wrapper">
+                <h5 class="drink_cost">
+                  8,000 UZS
+                </h5>
+                <div class="adding_wrapper">
+                  <a class="adding" href=""><img src="./Images/Path.png" alt=""></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="booking">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-md-1 order-2">
+          <h3 class="booking_title">
+            Mobil ilovamiz
+            orqali buyurtma
+            berish yanada osonroq
+          </h3>
+          <div class="buttons_wrapper">
+            <button class="btn">
+              <img src="./Images/googleplay.png" alt="">
+            </button>
+            <button class="btn">
+              <img src="./Images/appstore.png" alt="">
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-2 order-1">
+          <img class="booking_img" src="./Images/White.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-12">
+          <img src="./Images/Group Copy 2.svg" alt="" class="footer_logo">
+        </div>
+        <div class="col-md-2 col-12">
+          <div class="main_wrapper">
+            <h4 class="main_title">
+              Asosiy
+            </h4>
+            <a href="" class="main_link">Kompaniya haqida</a> <br>
+            <a href="" class="main_link"> Filiallar</a> <br>
+            <a href="" class="main_link">Bolalar uchun</a>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Asosiy
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item active" href="#header.scss">Kompaniya haqida</a></li>
+              <li><a class="dropdown-item" href="#">Filiallar</a></li>
+              <li><a class="dropdown-item" href="#">Bolalar uchun</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Main menu</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-12 offset-md-1">
+          <div class="main_wrapper">
+            <h4 class="main_title">
+              Qo’shimcha
+            </h4>
+            <a href="" class="main_link">Menu</a> <br>
+            <a href="" class="main_link"> Bonusli karta</a> <br>
+            <a href="" class="main_link">Bu qanday ishlaydi</a>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Qo'shimcha
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item active" href="#header.scss">Menu</a></li>
+
+              <li><a class="dropdown-item" href="">Bu qanday ishlaydi</a></li>
+              <li><a class="dropdown-item" href="#">Bonusli karta</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Main menu</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-12 offset-md-2">
+          <h4 class="contact_us">
+            Biz bilan aloqa
+          </h4>
+          <a href="" class="phone_number">(+998 71) 200-54-00</a> <br>
+          <a href="" class="place">100011, Toshkent sh. Shayxontohur tumani,
+            Zarqaynar ko’chasi, 3B-uy</a>
+        </div>
+      </div>
+      <div class="hr"></div>
+      <div class="row">
+        <div class="col-md-3 col-12 order-md-1 order-2">
+          <p class="max_way">
+            © Maxway, 2020
+          </p>
+        </div>
+        <div class="col-md-3 col-12 order-md-2 order-1 offset-md-6">
+          <div class="app_links">
+            <a href="" class="app_link1"><img src="./Images/Group (3).png" alt=""></a>
+            <a href="" class="app_link2"><img src="./Images/Group (4).png" alt=""></a>
+            <a href="" class="app_link3"><img src="./Images/Group (5).png" alt=""></a>
+            <a href="" class="app_link4"><img src="./Images/Group (6).png" alt=""></a>
+            <a href="" class="app_link5"><img src="./Images/tiktok-share-icon-black-seeklogo.com.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

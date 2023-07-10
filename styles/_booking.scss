@@ -1,0 +1,81 @@
+.booking {
+  background: #800a7a;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ background-image: url(../Images/Path\ \(2\).png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 630px;
+
+  .container {
+    .row {
+      padding-top: 75px;
+      padding-bottom: 75px;
+
+      .booking_title {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 63px;
+
+        color: #ffffff;
+        margin-bottom: 63px;
+      }
+      .buttons_wrapper {
+        display: flex;
+        column-gap: 30px;
+        button {
+          padding: 17px 31px;
+          border: 1px solid rgba(255, 255, 255, 0.292941);
+          backdrop-filter: blur(13.5914px);
+          border-radius: 46px;
+          img {
+            width: 187px;
+          }
+        }
+      }
+      .booking_img {
+        width: 80%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .booking {
+    background-position: 40px 100px;
+    background-repeat: no-repeat;
+    background-size: 450px;
+    .container {
+      .row {
+        padding-bottom: 28px;
+        .booking_title {
+          font-size: 33px;
+          line-height: 44px;
+          text-align: center;
+          margin-bottom: 24px;
+        }
+        .buttons_wrapper {
+          flex-direction: column;
+
+          button {
+            width: 70%;
+            padding: 13px 20px;
+
+            margin: 0 auto;
+            margin-bottom: 12px;
+            img {
+              width: 167.46px;
+            }
+          }
+        }
+        .booking_img {
+          margin-bottom: 25px;
+          transform: scale(1.3) translateX(20px);
+        }
+      }
+    }
+  }
+}
